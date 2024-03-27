@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.container{
+    margin-left: 300px;
+    margin-top: -50px;
+    margin-bottom: 250px;
+    height: 450px;
+    width: 700px;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    opacity: 100%;
+    border-radius: 15px;
+ }
+ .text{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #212529;
+    margin-left: 300px;
+}
+
+#exit{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+#exit:hover{
+    color: turquoise;
+}
+.show-button{
+
+    padding: 10px 17px;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #dc3545;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 250px;
+}
+.show-button:hover{
+    background-color: #dc3550;
+    transition: 500ms;
+}
+#show:checked ~ .container{
+    display: block;
+    opacity: 100%;
+}
+.hill{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.Checkbox{
+    display: none;
+}
+.div4{
+    color: #2e69ff;
+    font-weight: 700;
+    margin-left: 70px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+li{
+    margin-left: 70px;
+    font-size: 15px;
+    color: #2e69ff;
+    margin-bottom: 5px;
+    
+}
+#circle{
+    font-size: 6px;
+    margin-right: 15px;
+}
+.input-mod{
+    margin-left: 60px;
+    padding: 10px;
+    width: 550px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+
+}
+.input-mod:hover{
+    border-bottom: 1px solid #2e69ff;
+    transition: 300ms;
+}
+.input-mod:focus{
+    border-bottom: 1px solid #2e69ff;
+    transition: 300ms;
+}
+.input-mod2{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#link{
+    font-size: 15px;
+    margin-left: 35px;
+}
+.div-op{
+    margin-left: 480px;
+    margin-top: 160px;
+    
+}
+button{
+   margin-left: 20px;
+   cursor: pointer;
+   padding: 10px 15px; 
+   border-radius: 15px;
+   color: #fff;
+   background-color: #2e69ff;
+   font-weight: 600;
+   border: none;
+}
+button:hover{
+    background-color: #1d5af5;
+    transition: 500ms;
+}
+.div-op span{
+    color: #212529;
+}
+.div-ultu{
+    margin-bottom: 200px;
+}

@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.para{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin: 50px;
+    opacity: 55%;
+}
+.container{
+   margin-left: 500px;
+   margin-top: -50px;
+   margin-bottom: 250px;
+   height: auto;
+   width: 400px;
+   display: none;
+   position: absolute;
+   z-index: 2;
+   background-color: #fff;
+   opacity: 100%;
+}
+.text{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #212529;
+    margin-left: 50px;
+}
+label{
+    color: #212529;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.div1{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #212529;
+}
+.form-input1{
+    padding: 8px;
+    width: 80%;
+    border: transparent;
+    outline: none;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.form-input1:focus{
+    outline: 1px solid aqua;
+}
+#exit{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#exit:hover{
+    color: turquoise;
+}
+.button1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px 17px;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #dc3545;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.button1:hover{
+    background-color: #dc3550;
+    transition: 500ms;
+}
+.button2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px 17px;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6c757d;
+    font-weight: 600;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.form-input2{
+    margin-left: 50px;
+}
+.button2:hover{
+    background-color: #88939c;
+    transition: 500ms;
+}
+.show-button{
+
+    padding: 10px 17px;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #dc3545;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 250px;
+    
+}
+.show-button:hover{
+    background-color: #dc3550;
+    transition: 500ms;
+}
+#show:checked ~ .container{
+    display: block;
+    opacity: 100%;
+}
+.hill{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.Checkbox{
+    display: none;
+}
+.div-para{
+    margin-bottom: 250px;
+}
